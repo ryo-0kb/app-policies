@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>アプリ一覧</title>
+  <meta name="description" content="各アプリのプライバシーポリシー、利用規約、サポート情報を掲載しています。" />
+  <link rel="stylesheet" href="./styles/landing.css" />
+  <style>
+    .container {
+      max-width: 520px;
+    }
+
+    .app-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .app-card {
+      padding: 18px;
+      border: 1px solid #ddd;
+      border-radius: 16px;
+      background: #fff;
+      text-align: left;
+    }
+
+    .app-card h2 {
+      margin: 0 0 6px;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .app-card p {
+      margin: 0 0 14px;
+      color: #666;
+      font-size: 14px;
+    }
+
+    a.button {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="container">
+      <h1>アプリ一覧</h1>
+      <p class="description">各アプリの利用規約・プライバシーポリシーをご確認いただけます。</p>
+
+      <section class="app-list" aria-label="アプリ一覧">
+        <article class="app-card">
+          <h2>推しサーチ</h2>
+          <p>推しサーチの利用規約・プライバシーポリシーはこちらから確認できます。</p>
+          <a class="button" href="./oshi-search/index.html">ページを開く</a>
+        </article>
+      </section>
+
+    </div>
+  </main>
+</body>
+</html>
